@@ -21,6 +21,7 @@ The last of which is accessed through a proxy with a long cache so as not to bur
 The App icon comes from an artist named Freepik from https://www.flaticon.com/, all rights reserved.
 
 TODO:
+ - A better source for up to date currency exchange rates
  - Persistance of currency choice
  - Wallet screen
  - Detail view for coins
