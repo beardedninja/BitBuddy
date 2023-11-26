@@ -6,10 +6,10 @@ This app is build with the MVVM architecture, repository pattern (with no persis
 
 A very minimum set of dependencies were included to keep the app clean:
 
-Koin: Dependency Injection
-Retrofit: HTTP api consumption, both XML and JSON
-Coil: Image loading library
-(Compose, Timber, JUnit and Mockito being the others)
+ - Koin: Dependency Injection
+ - Retrofit: HTTP api consumption, both XML and JSON
+ - Coil: Image loading library
+ - (Compose, Timber, JUnit and Mockito being the others)
 
 The app uses 3 apis defined in the NetworkModule:
  - Coindesk News RSS feed (XML) (www.coindesk.com)
