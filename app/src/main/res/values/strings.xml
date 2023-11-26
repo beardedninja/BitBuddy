@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BitBuddy</string>
+    <string name="home_screen_route">Home</string>
+    <string name="coins_screen_route">Coins</string>
+    <string name="wallet_screen_route">Wallet</string>
+    <string name="settings_screen_route">Settings</string>
+</resources>
