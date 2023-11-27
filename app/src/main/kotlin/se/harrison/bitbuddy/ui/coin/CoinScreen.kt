@@ -55,7 +55,7 @@ fun CoinScreen(coinViewModel: CoinViewModel, settingsViewModel: SettingsViewMode
   Scaffold(
     topBar = {
       TopAppBar(
-        title = { Text("Coin Performance - Last 24 hours") },
+        title = { Text("Last 24 hours") },
       )
     }
   ) { innerPadding ->
@@ -151,7 +151,7 @@ fun Content(coins: List<Coin>, imageLoader: ImageLoader) {
           Row(
             modifier = Modifier
               .fillMaxWidth()
-              .height(24.dp)
+              .height(28.dp)
               .padding(4.dp),
             horizontalArrangement = Arrangement.End
           ) {
@@ -163,7 +163,7 @@ fun Content(coins: List<Coin>, imageLoader: ImageLoader) {
           Row(
             modifier = Modifier
               .fillMaxWidth()
-              .height(24.dp)
+              .height(28.dp)
               .padding(4.dp),
             horizontalArrangement = Arrangement.End
           ) {
@@ -175,7 +175,7 @@ fun Content(coins: List<Coin>, imageLoader: ImageLoader) {
           Row(
             modifier = Modifier
               .fillMaxWidth()
-              .height(24.dp)
+              .height(28.dp)
               .padding(4.dp),
             horizontalArrangement = Arrangement.End
           ) {
